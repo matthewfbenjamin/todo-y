@@ -18,6 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         self.window = UIWindow(frame: UIScreen.main.bounds)
         let navigation1 = UINavigationController()
+        navigation1.navigationBar.tintColor = UIColor.white
         navigation1.navigationBar.barTintColor = UIColor.init(red: 66 / 255, green: 134 / 255, blue: 244 / 255, alpha: 1.0)
 
 //        let todoListViewController = TodoListViewController(nibName: nil, bundle: nil)
